@@ -1,5 +1,131 @@
 1 - What are the goals of a distributed system?
-PP - What is the function of middleware in DS?
-2 - Describe how the naming in Java RMI works.
-10 - Describe the different types of faults.
-10 - Explain how agreement is reached within process groups.
+1 - Define what is a Distributed System
+1 - Why do we need DS?
+1 - What advances has made DS practical?
+1 - List and describe the various computing paradigms.
+1 - Describe the different levels of transparency in DS.
+1 - Other than Transparency, list and describe all other goals of a DS.
+1 - List and describe the various challenges in DS.
+1 - List the advantages & disadvantages of a DS.
+2 - What are the differences between regular computer networks and distributed systems?
+2 - What aspects of a distributed system does Communication impact? Discuss what each is.
+2 - What is the formula for Message Transmission Time?
+2 - What is 'Total System Bandwidth' and how is it different in LANs and WANs?
+2 - What is the difference between circuit-switched and packet-switched network.
+2 - Discuss the differences between CS and PS networks in terms of resource utilzation, speed, efficiency, application, cost.
+2 - What is a protocol? What is the difference between connection-oriented and connectionless protocols?
+2 - What is the difference between datagram packet delivery and virtual circuit packet delivery.
+2 - Discuss the differences between hubs, bridges, switches and routers.
+2 - List and name the function of each layer in the OSI model.
+2 - Discuss Mobile IP. How does it work? Why is it not efficient?
+2 - Discuss TCP's 3way handshake
+3 - Discuss differences between Persistent and Transient communication.
+3 - Discuss the difference between Asynchcronous and Synchronous communication.
+3 - What is the purpose of middleware in a DS?
+3 - Where does the middleware sit in the OSI model? Why is it there?
+3 - What are the 3 communication paradigms? Give examples of each one.
+3 - What is a socket? Why is it needed?
+3 - Discuss how IPC using Datagrams work.
+3 - Discuss how IPC using TCP work.
+3 - Discuss 3 communication issues faced by a TCP stream in IPC.
+3 - What problems do message passing via Socket APIs face?
+3 - What is remote invocation? Give two examples of it.
+3 - Discuss the Request/Reply protocol. What 3 operations are used in it?
+3 - What is an idempotent operation? Why must server transmissions avoid re-execution of non-idempotent operation? What can be done at the sender to prevent this?
+3 - Draw the RPC implementation of a client/server application. 
+3 - What is the purpose of the stub in RPC?
+3 - What is an IDL? 
+3 - What is RPC binding? What does the server do to accomplish this?
+3 - Draw the implementation of a client and server in RMI.
+3 - What does the skeleton in an RMI implementation do?
+3 - Explain how naming in Java RMI is accomplished.
+3 - How are parameters passed in Java RMI? Primitive and Object
+3 - What is Indirect Communication in a DS?
+3 - Discuss what is space and time uncoupling.
+3 - Describe the publish/subscribe method in Indirect Communication.
+3 - Describe the Topic and content based method in Indirect communication.
+4 - Describe the encapsulation, protection and concurrent processing that an OS provides.
+4 - What are the core components of an operating system.
+4 - What is the function of the Kernel in an OS?
+4 - In the context of an OS, what is a Process?
+4 - What are the features of a process' execution environment?
+4 - What is a context switch?
+4 - What is an address space in the context of OS processes?
+4 - In the context of an OS, what is a Thread?
+4 - What benefits do threads offer?
+4 - What are the different types of threads? What are the advantages & disadvantages of each?
+4 - Discuss the three types of multi-threaded server architectures?
+4 - In terms of OS architecture, what is a cache? What causes cache flushing. What doesn't cause cache flushing?
+4 - What components can be a source of delay in the RPC/RMI methods and OS?
+4 - What is virtualization?
+4 - Explain how virtualization helps with respect to abstraction, replication and isolation.
+4 - What is system virtualization and how is it achieved?
+4 - Discuss 4 benefits of using virtualization.
+5 - What is the difference between clock skew and clock drift?
+5 - What is the difference between external and internal clock synchronization in a DS?
+5 - Discuss Cristian's Algorithm for Clock Synchronization.
+5 - Discuss Berkley's Algorithm for Clock synchronization.
+5 - What is NTP, and how is it structured?
+5 - How does NTP cope with failures?
+5 - Explain how a Lamport logical clock works.
+5 - Explain the shortcoming of Lamport clocks and explain how vector clocks work.
+5 - Draw the timing diagrams from the tutorial and show the timings for a Lamport logical clock and vector clock.
+6 - Why is naming important in DS?
+6 - What are the three types of names in a DS? Explain each.
+6 - Explain the flat naming structure. How can entities be found using this structure?
+6 - Explain what is a name space and how is it represented?
+6 - What is a naming service?
+6 - how do naming services facilitate communication and resource sharing?
+6 - Discuss, with the aid of a diagram, how DNS recusively resolves a URL.
+6 - Discuss, with the aid of a diagram, how DNS non-recusively resolves a URL
+6 - Discuss some of the issues that can affect DNS.
+6 - Discuss what is a directory and directory services.
+7 - Why do we need a DFS?
+7A - What is a file system?
+7A - Draw the file service architecture for a client connecting to a server.
+7A - List the three services in a file service architecture and discuss their function.
+7A - Draw the NFS architecture.
+7A - DIscuss NFS access control and authentication.
+7A - Draw a diagram showing how Kerberos is added onto NFS.
+7A - Discuss how automounter works in NFS.
+7A - Discuss server caching in NFS.
+7A - Discuss client caching in NFS.
+7A - Discuss the different transparencies that NFS provide.
+7B - In terms of the GFS, what is a rack and what is a cluster?
+7B - Discuss and draw the GFS architecture.
+7B - What data is cached in GFS?
+7B - What is Mapreduce? What tasks are taken away from programmers?
+7B - What is Apache Hadoop?
+7B - What are some of the assumptions and goals that Hadoop makes?
+7B - Discuss and draw the HDFS architecture.
+7B - Discuss the function of the primary and secondary Namenodes in HDFS.
+7B - Discuss the function of the datanodes in HDFS.
+7B - Explain MapReduce's overall architecture.
+8 - Name and discuss the three V's of Big Data
+8 - Explain, with the aid of a diagram, how MapReduce works.
+8 - What are some of the limitations of MapReduce?
+8 - Discuss what is a RDD. How does this improve upon MapReduce's shortcomings?
+8 - Describe the differences in data sharing between MapReduce and Spark RDD.
+8 - Draw diagrams showing the iterative operations in MapReduce and Spark RDD.
+8 - Draw diagrams showing the interactive operations in MapReduce and Spark RDD.
+9 - What is the difference between concurrency and parallelism?
+9 - What is a goroutine and what is a channel?
+9 - What are the 2 types of channels in Go? Explain how each works.
+10 - What is the definition of a failure?
+10 - Discuss the 4 properties of a dependable system.
+10 - What is the difference between a fault, error and failure. What is fault tolerance?
+10 - Faults can be classified into 3 types. What are they? Explain the difference between fail-silent faults and bzantine failures.
+10 - Describe the 5 different types of Failures.
+10 - Discuss the 3 ways to handle faults.
+10 - Discuss the 3 ways in achieving fault tolerance.
+10 - What is a process group and why is it needed? Discuss the two types of process groups
+10 - Discuss the two types of replication in process groups.
+10 - How many components are needed for a fail-silent failure/byzantine failure to be fault tolerant? Explain.
+10 - Discuss how agreement is reached in faulty systems. What situations require the need for agreement?
+10 - Discuss the Byzantine Generals algorithm and the impossibility result situation.
+10 - Discuss two methods of failure detection.
+10 - Discuss the three distributed commit protocols.
+10 - Discuss the two types of recovery.
+10 - What is checkpointing? How is it used to restore a stable state?
+10 - Discuss how global consistency is achieved via message logging. Discuss the difference between sender-based and receiver-based logging.
+10 - Discuss the difference between independent checkpointing and coordinatied checkpointing.
