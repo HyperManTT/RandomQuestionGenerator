@@ -1,0 +1,5 @@
+1 - What are the goals of a distributed system?
+PP - What is the function of middleware in DS?
+2 - Describe how the naming in Java RMI works.
+10 - Describe the different types of faults.
+10 - Explain how agreement is reached within process groups.
