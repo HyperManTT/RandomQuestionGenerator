@@ -24,9 +24,12 @@ def read_questions(file_name):
 if __name__ == "__main__":
     question_list = read_questions('question_list.txt')
     random.shuffle(question_list)
+    total_questions = len(question_list)
+    completed_questions = 0
     for question in question_list:
         clear_screen()
-        print question + '\n'
+        print question + '\n\n'
+        print str(completed_questions) + "/" + str(total_questions) + " completed."
         raw_input('Press Enter for new question')
     clear_screen()
     print 'Done!'
