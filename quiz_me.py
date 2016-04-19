@@ -30,6 +30,7 @@ if __name__ == "__main__":
         clear_screen()
         print question + '\n\n'
         print str(completed_questions) + "/" + str(total_questions) + " completed."
+        completed_questions += 1
         raw_input('Press Enter for new question')
     clear_screen()
     print 'Done!'
