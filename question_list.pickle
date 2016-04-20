@@ -1,264 +1,264 @@
 (lp0
-S'1 - Describe the different levels of transparency in DS.'
+S'7B - What is Apache Hadoop?'
 p1
-aS"8 - Name and discuss the three V's of Big Data"
-p2
-aS'10 - Discuss how global consistency is achieved via message logging. Discuss the difference between sender-based and receiver-based logging.'
-p3
-aS'7A - Discuss server caching in NFS.'
-p4
-aS'8 - What are some of the limitations of MapReduce?'
-p5
-aS'7A - Discuss how automounter works in NFS.'
-p6
-aS'7B - What data is cached in GFS?'
-p7
-aS'3 - Discuss 3 communication issues faced by a TCP stream in IPC.'
-p8
-aS'8 - Draw diagrams showing the iterative operations in MapReduce and Spark RDD.'
-p9
-aS'2 - Discuss Mobile IP. How does it work? Why is it not efficient?'
-p10
-aS'7A - Discuss the different transparencies that NFS provide.'
-p11
 aS'1 - What are the goals of a distributed system?'
-p12
-aS'3 - Draw the implementation of a client and server in RMI.'
-p13
-aS'2 - Discuss the differences between hubs, bridges, switches and routers.'
-p14
-aS"7B - Explain MapReduce's overall architecture."
-p15
-aS'1 - What advances has made DS practical?'
-p16
-aS'7A - Discuss client caching in NFS.'
-p17
-aS'10 - Discuss the two types of replication in process groups.'
-p18
-aS'4 - What is an address space in the context of OS processes?'
-p19
-aS'7A - DIscuss NFS access control and authentication.'
-p20
-aS'2 - What are the differences between regular computer networks and distributed systems?'
-p21
-aS'8 - Describe the differences in data sharing between MapReduce and Spark RDD.'
-p22
-aS'1 - Other than Transparency, list and describe all other goals of a DS.'
-p23
-aS'4 - What are the different types of threads? What are the advantages & disadvantages of each?'
-p24
-aS'3 - Discuss the difference between Asynchcronous and Synchronous communication.'
-p25
-aS'3 - How are parameters passed in Java RMI? Primitive and Object'
-p26
-aS'7A - What is a file system?'
-p27
-aS'7A - Draw the NFS architecture.'
-p28
-aS'10 - Discuss two methods of failure detection.'
-p29
-aS'10 - What is a process group and why is it needed? Discuss the two types of process groups'
-p30
-aS'4 - What is system virtualization and how is it achieved?'
-p31
-aS'3 - What are the 3 communication paradigms? Give examples of each one.'
-p32
-aS'7B - In terms of the GFS, what is a rack and what is a cluster?'
-p33
-aS'10 - Describe the 5 different types of Failures.'
-p34
-aS'10 - Discuss the two types of recovery.'
-p35
-aS'5 - Explain how a Lamport logical clock works.'
-p36
-aS'3 - What does the skeleton in an RMI implementation do?'
-p37
-aS'3 - Discuss the Request/Reply protocol. What 3 operations are used in it?'
-p38
-aS'3 - What problems do message passing via Socket APIs face?'
-p39
-aS'1 - Why do we need DS?'
-p40
-aS'9 - What is the difference between concurrency and parallelism?'
-p41
-aS'3 - Discuss how IPC using TCP work.'
-p42
-aS'4 - Describe the encapsulation, protection and concurrent processing that an OS provides.'
-p43
-aS'10 - Discuss how agreement is reached in faulty systems. What situations require the need for agreement?'
-p44
-aS'8 - Draw diagrams showing the interactive operations in MapReduce and Spark RDD.'
-p45
-aS'2 - List and name the function of each layer in the OSI model.'
-p46
-aS'2 - What is the formula for Message Transmission Time?'
-p47
-aS'3 - What is a socket? Why is it needed?'
-p48
-aS'10 - Discuss the Byzantine Generals algorithm and the impossibility result situation.'
-p49
-aS'1 - List and describe the various computing paradigms.'
-p50
-aS"5 - Discuss Cristian's Algorithm for Clock Synchronization."
-p51
-aS'10 - Discuss the 3 ways in achieving fault tolerance.'
-p52
-aS'6 - Explain what is a name space and how is it represented?'
-p53
-aS'7 - Why do we need a DFS?'
-p54
-aS'6 - Discuss, with the aid of a diagram, how DNS recusively resolves a URL.'
-p55
-aS'10 - What is the definition of a failure?'
-p56
-aS'2 - What is the difference between circuit-switched and packet-switched network.'
-p57
-aS'2 - Discuss the differences between CS and PS networks in terms of resource utilzation, speed, efficiency, application, cost.'
-p58
-aS'4 - In the context of an OS, what is a Process?'
-p59
-aS'5 - What is NTP, and how is it structured?'
-p60
-aS'3 - Describe the publish/subscribe method in Indirect Communication.'
-p61
-aS'6 - Explain the flat naming structure. How can entities be found using this structure?'
-p62
-aS'3 - Discuss what is space and time uncoupling.'
-p63
-aS'2 - What is a protocol? What is the difference between connection-oriented and connectionless protocols?'
-p64
-aS'10 - What is the difference between a fault, error and failure. What is fault tolerance?'
-p65
-aS'3 - What is an IDL? '
-p66
-aS'7B - Discuss and draw the HDFS architecture.'
-p67
-aS'4 - What components can be a source of delay in the RPC/RMI methods and OS?'
-p68
-aS'4 - Explain how virtualization helps with respect to abstraction, replication and isolation.'
-p69
-aS'3 - What is Indirect Communication in a DS?'
-p70
-aS'7B - Discuss the function of the datanodes in HDFS.'
-p71
-aS'5 - Draw the timing diagrams from the tutorial and show the timings for a Lamport logical clock and vector clock.'
-p72
-aS'7A - Draw the file service architecture for a client connecting to a server.'
-p73
+p2
 aS'10 - Discuss the 3 ways to handle faults.'
-p74
-aS'3 - Describe the Topic and content based method in Indirect communication.'
-p75
-aS'3 - Where does the middleware sit in the OSI model? Why is it there?'
-p76
-aS'3 - Discuss differences between Persistent and Transient communication.'
-p77
-aS'3 - Discuss how IPC using Datagrams work.'
-p78
-aS'8 - Explain, with the aid of a diagram, how MapReduce works.'
-p79
-aS'2 - What aspects of a distributed system does Communication impact? Discuss what each is.'
-p80
-aS"5 - Discuss Berkley's Algorithm for Clock synchronization."
-p81
-aS'3 - Draw the RPC implementation of a client/server application. '
-p82
-aS'6 - What is a naming service?'
-p83
-aS'4 - What is a context switch?'
-p84
-aS'4 - Discuss the three types of multi-threaded server architectures?'
-p85
-aS'7A - List the three services in a file service architecture and discuss their function.'
-p86
-aS'5 - How does NTP cope with failures?'
-p87
-aS'1 - List and describe the various challenges in DS.'
-p88
-aS'7A - Draw a diagram showing how Kerberos is added onto NFS.'
-p89
-aS'3 - What is an idempotent operation? Why must server transmissions avoid re-execution of non-idempotent operation? What can be done at the sender to prevent this?'
-p90
-aS'6 - how do naming services facilitate communication and resource sharing?'
-p91
-aS'7B - What is Apache Hadoop?'
-p92
-aS'6 - Discuss some of the issues that can affect DNS.'
-p93
-aS"4 - In terms of OS architecture, what is a cache? What causes cache flushing. What doesn't cause cache flushing?"
-p94
-aS"4 - What are the features of a process' execution environment?"
-p95
-aS'9 - What are the 2 types of channels in Go? Explain how each works.'
-p96
-aS'9 - What is a goroutine and what is a channel?'
-p97
-aS'7B - Discuss and draw the GFS architecture.'
-p98
-aS"2 - Discuss TCP's 3way handshake"
-p99
-aS'5 - Explain the shortcoming of Lamport clocks and explain how vector clocks work.'
-p100
-aS'10 - Faults can be classified into 3 types. What are they? Explain the difference between fail-silent faults and bzantine failures.'
-p101
-aS'10 - Discuss the three distributed commit protocols.'
-p102
-aS'7B - What are some of the assumptions and goals that Hadoop makes?'
-p103
-aS"8 - Discuss what is a RDD. How does this improve upon MapReduce's shortcomings?"
-p104
-aS'10 - Discuss the 4 properties of a dependable system.'
-p105
-aS'4 - What are the core components of an operating system.'
-p106
-aS'4 - What is virtualization?'
-p107
-aS'4 - In the context of an OS, what is a Thread?'
-p108
-aS'7B - Discuss the function of the primary and secondary Namenodes in HDFS.'
-p109
-aS'10 - Discuss the difference between independent checkpointing and coordinatied checkpointing.'
-p110
-aS'10 - How many components are needed for a fail-silent failure/byzantine failure to be fault tolerant? Explain.'
-p111
-aS'3 - What is the purpose of middleware in a DS?'
-p112
-aS'2 - What is the difference between datagram packet delivery and virtual circuit packet delivery.'
-p113
-aS'6 - Why is naming important in DS?'
-p114
-aS'7B - What is Mapreduce? What tasks are taken away from programmers?'
-p115
-aS'3 - What is the purpose of the stub in RPC?'
-p116
-aS'10 - What is checkpointing? How is it used to restore a stable state?'
-p117
+p3
 aS'4 - What is the function of the Kernel in an OS?'
-p118
-aS"2 - What is 'Total System Bandwidth' and how is it different in LANs and WANs?"
-p119
-aS'1 - Define what is a Distributed System'
-p120
-aS'5 - What is the difference between external and internal clock synchronization in a DS?'
-p121
-aS'6 - Discuss what is a directory and directory services.'
-p122
-aS'3 - What is remote invocation? Give two examples of it.'
-p123
+p4
+aS'6 - Explain the flat naming structure. How can entities be found using this structure?'
+p5
+aS'1 - List and describe the various computing paradigms.'
+p6
+aS'4 - What is an address space in the context of OS processes?'
+p7
+aS'4 - What are the core components of an operating system.'
+p8
+aS'10 - What is the difference between a fault, error and failure. What is fault tolerance?'
+p9
+aS'4 - What is a context switch?'
+p10
+aS"2 - Discuss TCP's 3way handshake"
+p11
+aS'7B - Discuss and draw the GFS architecture.'
+p12
+aS"8 - Discuss what is a RDD. How does this improve upon MapReduce's shortcomings?"
+p13
 aS'3 - What is RPC binding? What does the server do to accomplish this?'
-p124
-aS'6 - What are the three types of names in a DS? Explain each.'
-p125
-aS'4 - What benefits do threads offer?'
-p126
-aS'6 - Discuss, with the aid of a diagram, how DNS non-recusively resolves a URL'
-p127
-aS'4 - Discuss 4 benefits of using virtualization.'
-p128
-aS'5 - What is the difference between clock skew and clock drift?'
-p129
-aS'1 - List the advantages & disadvantages of a DS.'
-p130
+p14
+aS'10 - Discuss how global consistency is achieved via message logging. Discuss the difference between sender-based and receiver-based logging.'
+p15
+aS'7B - Discuss the function of the primary and secondary Namenodes in HDFS.'
+p16
+aS'3 - What is remote invocation? Give two examples of it.'
+p17
+aS'2 - What are the differences between regular computer networks and distributed systems?'
+p18
+aS"5 - Discuss Cristian's Algorithm for Clock Synchronization."
+p19
+aS'7B - What data is cached in GFS?'
+p20
+aS'4 - Explain how virtualization helps with respect to abstraction, replication and isolation.'
+p21
+aS'10 - Discuss the difference between independent checkpointing and coordinatied checkpointing.'
+p22
 aS'3 - Explain how naming in Java RMI is accomplished.'
+p23
+aS'1 - Other than Transparency, list and describe all other goals of a DS.'
+p24
+aS"2 - What is 'Total System Bandwidth' and how is it different in LANs and WANs?"
+p25
+aS'6 - What are the three types of names in a DS? Explain each.'
+p26
+aS'8 - What are some of the limitations of MapReduce?'
+p27
+aS'8 - Explain, with the aid of a diagram, how MapReduce works.'
+p28
+aS'2 - Discuss Mobile IP. How does it work? Why is it not efficient?'
+p29
+aS'3 - What is an idempotent operation? Why must server transmissions avoid re-execution of non-idempotent operation? What can be done at the sender to prevent this?'
+p30
+aS'3 - What does the skeleton in an RMI implementation do?'
+p31
+aS'3 - Discuss the difference between Asynchcronous and Synchronous communication.'
+p32
+aS'7A - Discuss how automounter works in NFS.'
+p33
+aS'3 - What is Indirect Communication in a DS?'
+p34
+aS'7A - DIscuss NFS access control and authentication.'
+p35
+aS'1 - List the advantages & disadvantages of a DS.'
+p36
+aS'10 - Faults can be classified into 3 types. What are they? Explain the difference between fail-silent faults and bzantine failures.'
+p37
+aS'10 - Discuss the two types of recovery.'
+p38
+aS'10 - Discuss the two types of replication in process groups.'
+p39
+aS'4 - Discuss 4 benefits of using virtualization.'
+p40
+aS'4 - What is system virtualization and how is it achieved?'
+p41
+aS'7A - What is a file system?'
+p42
+aS'5 - Explain how a Lamport logical clock works.'
+p43
+aS'10 - Discuss the three distributed commit protocols.'
+p44
+aS'7B - What are some of the assumptions and goals that Hadoop makes?'
+p45
+aS'4 - What is virtualization?'
+p46
+aS'7A - List the three services in a file service architecture and discuss their function.'
+p47
+aS'3 - How are parameters passed in Java RMI? Primitive and Object'
+p48
+aS'2 - Discuss the differences between CS and PS networks in terms of resource utilzation, speed, efficiency, application, cost.'
+p49
+aS'4 - What benefits do threads offer?'
+p50
+aS'3 - Discuss the Request/Reply protocol. What 3 operations are used in it?'
+p51
+aS'3 - What is a socket? Why is it needed?'
+p52
+aS'7A - Discuss the different transparencies that NFS provide.'
+p53
+aS'5 - Draw the timing diagrams from the tutorial and show the timings for a Lamport logical clock and vector clock.'
+p54
+aS'7A - Draw the NFS architecture.'
+p55
+aS'9 - What is the difference between concurrency and parallelism?'
+p56
+aS'3 - Describe the Topic and content based method in Indirect communication.'
+p57
+aS'3 - What is the purpose of middleware in a DS?'
+p58
+aS'5 - What is the difference between external and internal clock synchronization in a DS?'
+p59
+aS'2 - What is the formula for Message Transmission Time?'
+p60
+aS"7B - Explain MapReduce's overall architecture."
+p61
+aS'10 - What is the definition of a failure?'
+p62
+aS'2 - What is a protocol? What is the difference between connection-oriented and connectionless protocols?'
+p63
+aS'3 - What are the 3 communication paradigms? Give examples of each one.'
+p64
+aS'3 - Draw the RPC implementation of a client/server application. '
+p65
+aS'7A - Discuss server caching in NFS.'
+p66
+aS'10 - Discuss two methods of failure detection.'
+p67
+aS'2 - What is the difference between circuit-switched and packet-switched network.'
+p68
+aS'4 - Describe the encapsulation, protection and concurrent processing that an OS provides.'
+p69
+aS'6 - Explain what is a name space and how is it represented?'
+p70
+aS'4 - What are the different types of threads? What are the advantages & disadvantages of each?'
+p71
+aS'7A - Discuss client caching in NFS.'
+p72
+aS'1 - Define what is a Distributed System'
+p73
+aS'10 - How many components are needed for a fail-silent failure/byzantine failure to be fault tolerant? Explain.'
+p74
+aS'3 - Where does the middleware sit in the OSI model? Why is it there?'
+p75
+aS"4 - In terms of OS architecture, what is a cache? What causes cache flushing. What doesn't cause cache flushing?"
+p76
+aS"5 - Discuss Berkley's Algorithm for Clock synchronization."
+p77
+aS'4 - Discuss the three types of multi-threaded server architectures?'
+p78
+aS'3 - Discuss what is space and time uncoupling.'
+p79
+aS'2 - List and name the function of each layer in the OSI model.'
+p80
+aS'9 - What is a goroutine and what is a channel?'
+p81
+aS'3 - Draw the implementation of a client and server in RMI.'
+p82
+aS'6 - how do naming services facilitate communication and resource sharing?'
+p83
+aS'5 - What is NTP, and how is it structured?'
+p84
+aS'6 - Discuss, with the aid of a diagram, how DNS non-recusively resolves a URL'
+p85
+aS"8 - Name and discuss the three V's of Big Data"
+p86
+aS'1 - Describe the different levels of transparency in DS.'
+p87
+aS'10 - Discuss the 4 properties of a dependable system.'
+p88
+aS'3 - What problems do message passing via Socket APIs face?'
+p89
+aS'3 - Discuss how IPC using Datagrams work.'
+p90
+aS"4 - What are the features of a process' execution environment?"
+p91
+aS'3 - What is an IDL? '
+p92
+aS'7B - Discuss and draw the HDFS architecture.'
+p93
+aS'1 - Why do we need DS?'
+p94
+aS'7B - Discuss the function of the datanodes in HDFS.'
+p95
+aS'2 - What is the difference between datagram packet delivery and virtual circuit packet delivery.'
+p96
+aS'3 - Describe the publish/subscribe method in Indirect Communication.'
+p97
+aS'3 - Discuss 3 communication issues faced by a TCP stream in IPC.'
+p98
+aS'1 - What advances has made DS practical?'
+p99
+aS'2 - Discuss the differences between hubs, bridges, switches and routers.'
+p100
+aS'3 - Discuss how IPC using TCP work.'
+p101
+aS'8 - Draw diagrams showing the iterative operations in MapReduce and Spark RDD.'
+p102
+aS'4 - In the context of an OS, what is a Process?'
+p103
+aS'5 - How does NTP cope with failures?'
+p104
+aS'6 - Why is naming important in DS?'
+p105
+aS'2 - What aspects of a distributed system does Communication impact? Discuss what each is.'
+p106
+aS'1 - List and describe the various challenges in DS.'
+p107
+aS'10 - Discuss how agreement is reached in faulty systems. What situations require the need for agreement?'
+p108
+aS'10 - Discuss the 3 ways in achieving fault tolerance.'
+p109
+aS'7A - Draw a diagram showing how Kerberos is added onto NFS.'
+p110
+aS'10 - Discuss the Byzantine Generals algorithm and the impossibility result situation.'
+p111
+aS'4 - What components can be a source of delay in the RPC/RMI methods and OS?'
+p112
+aS'3 - Discuss differences between Persistent and Transient communication.'
+p113
+aS'3 - What is the purpose of the stub in RPC?'
+p114
+aS'7 - Why do we need a DFS?'
+p115
+aS'6 - Discuss some of the issues that can affect DNS.'
+p116
+aS'9 - What are the 2 types of channels in Go? Explain how each works.'
+p117
+aS'5 - Explain the shortcoming of Lamport clocks and explain how vector clocks work.'
+p118
+aS'6 - What is a naming service?'
+p119
+aS'10 - Describe the 5 different types of Failures.'
+p120
+aS'7A - Draw the file service architecture for a client connecting to a server.'
+p121
+aS'7B - In terms of the GFS, what is a rack and what is a cluster?'
+p122
+aS'6 - Discuss what is a directory and directory services.'
+p123
+aS'10 - What is a process group and why is it needed? Discuss the two types of process groups'
+p124
+aS'8 - Draw diagrams showing the interactive operations in MapReduce and Spark RDD.'
+p125
+aS'8 - Describe the differences in data sharing between MapReduce and Spark RDD.'
+p126
+aS'10 - What is checkpointing? How is it used to restore a stable state?'
+p127
+aS'5 - What is the difference between clock skew and clock drift?'
+p128
+aS'4 - In the context of an OS, what is a Thread?'
+p129
+aS'6 - Discuss, with the aid of a diagram, how DNS recusively resolves a URL.'
+p130
+aS'7B - What is Mapreduce? What tasks are taken away from programmers?'
 p131
 a.

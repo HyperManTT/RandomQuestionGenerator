@@ -50,10 +50,12 @@ def display_questions(question_list, starting_index):
         print question + '\n\n'
         print str(completed_questions) + "/" + str(total_questions) + " completed."
         completed_questions += 1
-        choice = raw_input("Press Enter for new question\n'S' to save current progress")
+        choice = raw_input("Press Enter for new question\n'S' to save current progress.\n'Q' to quit.\n")
         if choice.lower() == 's':
             save_progress(question_list, completed_questions)
             raw_input("Progress Saved!\n")
+        elif choice.lower() == 'q':
+            sys.exit(0)
         clear_screen()
     print 'Done!'
 
